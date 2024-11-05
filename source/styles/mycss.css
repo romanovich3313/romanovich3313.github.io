@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    font-family: Poppins, serif;
+}
+
+.navbar.navbar{
+    background-color:rgb(240, 240, 240);
+    border-bottom: solid 1px;
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.sidebar{
+    color: black;
+    background-color:rgb(240, 240, 240);
+    border-left: solid 1px;
+}
+
+
+.card{
+    
+    background-color:rgb(240, 240, 240);
+    color: black;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-body .btn{
+    color: white;
+}
+
+.card-img-top{
+    height: 550px;
+    /* height: 400px;  */
+    /* height: 600px; */
+    
+}
+
+.side-text,
+.footer-text{
+    color: black;
+    /* background-color:rgb(240, 240, 240); */
+    margin:auto auto;
+
+}
+
+.eff{
+    background-color: rgb(240, 240, 240);
+}
+
+.call-anim{
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+
+@keyframes call {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 0;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+@media(max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+footer{
+    background-color:rgb(240, 240, 240);
+    border-top: solid 1px;
+    margin-top: 4em;
+}
+
