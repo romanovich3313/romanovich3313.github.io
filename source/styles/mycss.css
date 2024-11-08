@@ -103,3 +103,41 @@ footer{
     margin-top: 4em;
 }
 
+/* forma>>>>>>>>>> */
+
+.form-label {
+    display:block;
+    flex-direction:column;
+    margin-bottom: 16px;
+  }
+
+.label-text {
+    margin-bottom: 4px;
+}
+
+.form-input {
+    
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 88px;
+    font-size: 14px;
+    outline: none;
+    width: 45%;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    
+}
+
+@media(max-width: 1000px){
+    form{
+        margin-bottom: 60px;
+    }
+}
+/* forma<<<<<<<<<<<<<<<< */
+
+.check{
+    cursor: pointer;
+}
